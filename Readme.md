@@ -18,7 +18,9 @@ Note:
 1) Backend
 
 > cd backend
+
 > cd npm install
+
 > nodemon index.js
 
 -> This will install all the dependencies related to backend service and start the backend server
@@ -26,7 +28,9 @@ Note:
 2) Frontend
 
 > cd frontend
+
 > npm install
+
 > npm start
 
 -> This will install all the fronend dependencies and npm start will start the application on port(3000)
