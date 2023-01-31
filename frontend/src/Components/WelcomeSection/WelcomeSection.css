@@ -1,0 +1,82 @@
+.weclomeflex{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 50%;
+}
+
+.btn{
+    font-size: 0.8rem;
+}
+
+.left-container{
+    padding: 10%;
+}
+
+.left-container h6{
+    font-weight: 400;
+    margin-bottom: -5px;
+}
+.left-container h1{
+    margin-left: -4px;
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.left-container p{
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    color: rgb(145,145,145);
+    line-height: 1.2rem;
+}
+
+.right{
+    display: flex;
+    width: 49%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightimage{
+    padding: 10%;
+}
+
+.rightimage img{
+    width: 100%;
+    box-shadow: 20px -20px 20px rgb(99, 99, 99);
+    border-radius: 3px;
+    transition: transform 0.3s;
+}
+
+.rightimage img:hover{
+    transform: scale(1.01);
+}
+
+@media screen and (max-width:1100px) {
+
+    .left-container{
+        padding: 5%;
+    }
+
+    .left, .right{
+        width: 100%;
+    }
+
+    .rightimage{
+        margin-top: 40px;
+        padding: 1%;
+    }
+    .rightimage img{
+        width: 100%;
+        box-shadow: -30px 20px 20px rgb(99, 99, 99);
+
+    }
+}

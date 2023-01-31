@@ -1,0 +1,74 @@
+.card{
+    width: 17rem;
+    /* height: 17rem; */
+    color: black;
+    border: none;
+    margin-top: 15px;
+    border-radius:3px;
+     box-shadow: 0 0 5px #ccc; 
+    
+    
+}
+
+.card img{
+    border-radius: 2px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    opacity: 0;
+    transition: 0.2s;
+    
+}
+
+.overlay:hover{
+    opacity: 0.8;
+}
+
+.buynow{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+
+.buynow p{
+    font-size: 0.9rem;
+}
+
+.brand{
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.card-title{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:1000px) {
+
+    .card{
+        width:100%
+    }
+    
+}

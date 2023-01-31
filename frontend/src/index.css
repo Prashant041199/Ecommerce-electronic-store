@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-family: "oswald", sans-serif;
+  font-weight: 500;
+  /* font-size: 3rem; */
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: rgb(135, 135, 135);
+  line-height: 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn{
+  border-radius: 2px;
+  padding: 4px 30px;
+}
+

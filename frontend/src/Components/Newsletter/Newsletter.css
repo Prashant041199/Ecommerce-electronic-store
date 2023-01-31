@@ -1,0 +1,21 @@
+.newsletter-section{
+    margin: 5%;
+    text-align: center;
+}
+
+.newsletter-section h5{
+    margin-top: 3%;
+    /* color:rgb(135, 135, 135); */
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.login-signup-container{
+    padding: 3% 0px 5% 0px;
+
+}
+
+.login-newsletter, .signup-newsletter{
+    margin: 10px 50px;
+}

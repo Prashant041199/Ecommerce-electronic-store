@@ -1,0 +1,28 @@
+.service-container{
+    margin-top: 60px;
+    padding: 5%;
+    padding-bottom: 8%;
+}
+
+.dark-section{
+    background-color: black;
+    color: white;
+}
+
+.Card-Container{
+    margin-top:5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.service-container h6{
+    margin-bottom: -4px;
+}
+.service-container h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
