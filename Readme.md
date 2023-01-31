@@ -101,4 +101,8 @@ Note:
 
 5)Nodejs: Used nodejs for running web applications outside the client's browser.
 
+6)BcryptJS: Used BcryptJS for encryption of Password.
+
+7)Axios: Used Axios for creating api calls from frontend to backend.
+
 
