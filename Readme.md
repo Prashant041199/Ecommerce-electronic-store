@@ -11,7 +11,7 @@ This is a sample application that demonstrates an E-commerce website using the M
 3) A Database with name ecommerce should be created before installing the dependencies.
 
 Note:
-1) I have not included shipping address and payment options as this can lead to privacy voilation.
+1) I have not included shipping address and payment options as this can lead to privacy violation.
 
 # Steps to run the app:
 
