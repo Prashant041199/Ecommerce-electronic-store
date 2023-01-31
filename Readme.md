@@ -39,7 +39,8 @@ Note:
 
 ->Open postman and creat a post request to (http://localhost:5000/products)
 ->Go to body tab and enter object in below format:
-	{
+	
+{
 
       "id": "abx",
 
