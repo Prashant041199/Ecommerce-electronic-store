@@ -38,6 +38,7 @@ Note:
 # Entering product details:
 
 ->Open postman and creat a post request to (http://localhost:5000/products)
+
 ->Go to body tab and enter object in below format:
 	
 
@@ -81,9 +82,13 @@ Note:
 # Technologies used
 
 1)React.JS: Used react tools and to create frontend components of this web application.
+
 2)BootStrap: For faster production used bootstrap and customised components according to design flow.
+
 3)MongoDb: Used mongodb for storing user details, login information, products information, and query information.
+
 4)Express: Used express for api.
+
 5)Nodejs: Used nodejs for running web applications outside the client's browser.
 
 
