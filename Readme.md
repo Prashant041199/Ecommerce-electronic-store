@@ -41,7 +41,6 @@ Note:
 ->Go to body tab and enter object in below format:
 	
 {
-
       "id": "abx",
 
       "name": "iphone x",
