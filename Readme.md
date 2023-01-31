@@ -2,9 +2,9 @@
 
 This is a sample application that demonstrates an E-commerce website using the MERN stack. The application loads products a MongoDB database and displays them. Users can select to display products in a single category. Users can click on any product to get more information including pricing, reviews and rating. Users can select items and add them to their shopping cart
 
-# This project was build using react.js, mongodb, express and nodejs and is fully responsive (Can be accessed on any Device).
+->This project was build using react.js, mongodb, express and nodejs and is fully responsive (Can be accessed on any Device).
 
-#Prerequisite:
+# Prerequisite:
 
 1) Node.js should be installed on you pc.
 2) Mongodb should be installed on you pc and should be open on PORT (27017).
@@ -13,7 +13,7 @@ This is a sample application that demonstrates an E-commerce website using the M
 Note:
 1) I have not included shipping address and payment options as this can lead to privacy voilation.
 
-#Steps to run the app:
+# Steps to run the app:
 
 1) Backend
 
@@ -31,7 +31,7 @@ Note:
 
 -> This will install all the fronend dependencies and npm start will start the application on port(3000)
 
-#Entering product details:
+# Entering product details:
 
 ->Open postman and creat a post request to (http://localhost:5000/products)
 ->Go to body tab and enter object in below format:
@@ -53,7 +53,7 @@ Note:
 3)Use online image source in img as shown in above example. 
 
 
-#Functionalities
+# Functionalities
 
 1) User can signup/login onto the website.
 2) Used bcryptjs(slow hash) to encrypt password before storing in database.
@@ -63,7 +63,7 @@ Note:
 6) Cart items are updated on realtime in database as well as frontend.
 7) User cannot go to login or signup page once user is already logged in. By entering the url manually, page will automatically redirect to homepage.
 
-#Technologies used
+# Technologies used
 
 1)React.JS: Used react tools and to create frontend components of this web application.
 2)BootStrap: For faster production used bootstrap and customised components according to design flow.
