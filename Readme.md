@@ -72,7 +72,7 @@ Note:
 # Functionalities
 
 1) User can signup/login onto the website.
-2) Used bcryptjs(slow hash) to encrypt password before storing in database.
+2) Used bcryptjs(slow hash) to hash password before storing in database, so that it is secured.
 3) Used multiple design techniques to enhance the look of this app.
 4) You can sort items based on price, brand, and type of product on the Products page.
 5) Contact page is also linked with database and all the quesries are stored in mongodb.
