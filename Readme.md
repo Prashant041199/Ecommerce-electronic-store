@@ -65,18 +65,26 @@ Note:
 
 Note: 
 1)All the fields are mandatory.
+
 2)Make "featured" as true only if you want to display it on the landing page.
+
 3)Use online image source in img as shown in above example. 
 
 
 # Functionalities
 
 1) User can signup/login onto the website.
+
 2) Used bcryptjs(slow hash) to hash password before storing in database, so that it is secured.
+
 3) Used multiple design techniques to enhance the look of this app.
+
 4) You can sort items based on price, brand, and type of product on the Products page.
+
 5) Contact page is also linked with database and all the quesries are stored in mongodb.
+
 6) Cart items are updated on realtime in database as well as frontend.
+
 7) User cannot go to login or signup page once user is already logged in. By entering the url manually, page will automatically redirect to homepage.
 
 # Technologies used
